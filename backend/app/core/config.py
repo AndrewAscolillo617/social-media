@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    DATABASE_URL: str = "sqllite:///./app.db"
+    DATABASE_URL: str = "sqlite:///./app.db"
     REDIS_URL: str = "redis://placeholder"
     SECRET_KEY: str = "placeholder"
     CORS_ORIGINS: list[str] = ["http://localhost:3000"]

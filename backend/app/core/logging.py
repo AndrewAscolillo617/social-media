@@ -30,7 +30,7 @@ def get_logging_config() -> Dict[str, Any]:
                 "level": "INFO",
             },
             "uvicorn.access": {
-                "handlers": ["access"],
+                "handlers": ["default"],
                 "level": "INFO",
                 "propagate": False,
             },

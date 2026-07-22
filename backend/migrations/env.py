@@ -6,6 +6,7 @@ from alembic import context
 # Import your Base and settings
 from app.db.base import Base
 from app.core.config import settings
+from app.models.user import User
 
 # Alembic Config object
 config = context.config
